@@ -9,5 +9,32 @@ h1 {
   text-align: center;
   color: #333;
 }
+#listaUsuarios{
+  display: flex;
+  flex-wrap: wrap;
 
+  justify-content: space-around;
+
+  font-size: small;
+}
+
+
+#listaUsuarios li {
+  display: flex;
+  flex-wrap: wrap;
+
+  border: .1em solid grey;
+  border-radius: 2%;
+
+  width: 23%;
+}
+
+#uPersonal{
+  border: .1em solid grey;
+  border-radius: 2%;
+}
+img {
+  max-width: 25%;
+  height: fit-content;
+}
 
